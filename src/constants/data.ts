@@ -721,12 +721,14 @@ export const data2 = {
       height: 1,
       size: 24,
       color: "rgb(97, 205, 187)",
+      image: "/assets/person.jpg",
     },
     {
       id: "Ebuka",
       height: 2,
-      size: 32,
+      size: 50,
       color: "rgb(244, 117, 96)",
+      image: "/assets/ebuka.jpg",
     },
     {
       id: "Chris",
@@ -746,6 +748,31 @@ export const data2 = {
       size: 24,
       color: "rgb(97, 205, 187)",
     },
+
+    // {
+    //   id: "Coding",
+    //   height: 0,
+    //   size: 12,
+    //   color: "rgb(232, 193, 160)",
+    // },
+    // {
+    //   id: "Eating",
+    //   height: 0,
+    //   size: 12,
+    //   color: "rgb(232, 193, 160)",
+    // },
+    // {
+    //   id: "Playing",
+    //   height: 0,
+    //   size: 12,
+    //   color: "rgb(232, 193, 160)",
+    // },
+    // {
+    //   id: "Sleeping",
+    //   height: 0,
+    //   size: 12,
+    //   color: "rgb(232, 193, 160)",
+    // },
   ],
   links: [
     {
@@ -756,37 +783,87 @@ export const data2 = {
     {
       source: "Ebuka",
       target: "Chris",
-      distance: 100,
+      distance: 180,
     },
     {
       source: "Ebuka",
       target: "Aaron",
-      distance: 130,
+      distance: 100,
+    },
+    {
+      source: "Ebuka",
+      target: "Lydia",
+      distance: 240,
     },
     {
       source: "Aaron",
       target: "Sam",
-      distance: 130,
+      distance: 110,
     },
     {
       source: "Sam",
       target: "Chris",
-      distance: 130,
+      distance: 50,
     },
     {
       source: "Chris",
       target: "Aaron",
-      distance: 130,
+      distance: 100,
     },
     {
       source: "Sam",
       target: "Lydia",
-      distance: 230,
+      distance: 280,
     },
     {
       source: "Lydia",
       target: "Chris",
-      distance: 120,
+      distance: 200,
     },
+    {
+      source: "Lydia",
+      target: "Aaron",
+      distance: 200,
+    },
+    // {
+    //   source: "Sam",
+    //   target: "Sleeping",
+    //   distance: 130,
+    // },
+    // {
+    //   source: "Sam",
+    //   target: "Eating",
+    //   distance: 90,
+    // },
+    // {
+    //   source: "Sam",
+    //   target: "Coding",
+    //   distance: 80,
+    // },
+    // {
+    //   source: "Chris",
+    //   target: "Eating",
+    //   distance: 20,
+    // },
+    // {
+    //   source: "Aaron",
+    //   target: "Coding",
+    //   distance: 90,
+    // },
+    // {
+    //   source: "Ebuka",
+    //   target: "Coding",
+    //   distance: 100,
+    // },
+    // {
+    //   source: "Sam",
+    //   target: "Playing",
+    //   distance: 30,
+    // },
+    // {
+    //   source: "Aaron",
+    //   target: "Eating",
+    //   distance: 120,
+    // },
   ],
 };

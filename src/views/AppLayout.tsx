@@ -11,17 +11,17 @@ const AppLayout: FC<{ children: ReactNode }> = ({ children }) => {
     "inspired"
   );
   return (
-    <Neo4jProvider
-      //   scheme="bolt"
-      //   host="http://192.168.100.125"
-      //   port={7474}
-      //   username="neo4j"
-      //   password="inspired"
-      //   database="neo4j"
-      driver={driver}
-    >
-      {children}
-    </Neo4jProvider>
+    // <Neo4jProvider
+    //   //   scheme="bolt"
+    //   //   host="http://192.168.100.125"
+    //   //   port={7474}
+    //   //   username="neo4j"
+    //   //   password="inspired"
+    //   //   database="neo4j"
+    //   driver={driver}
+    // >
+    <div>{children}</div>
+    // </Neo4jProvider>
   );
 };
 

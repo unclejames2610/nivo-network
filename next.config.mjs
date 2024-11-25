@@ -16,10 +16,9 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
-
       {
         protocol: "https",
-        hostname: "s3-alpha-sig.figma.com",
+        hostname: "res.cloudinary.com",
       },
       {
         protocol: "https",

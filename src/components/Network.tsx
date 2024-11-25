@@ -4,7 +4,7 @@ import { NodeProps, ResponsiveNetwork } from "@nivo/network";
 import { data, data2 } from "@/constants/data";
 
 // Define a specific type for the node's data
-interface CustomNodeData {
+export interface CustomNodeData {
   id: string;
   height: number;
   size: number;
